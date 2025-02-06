@@ -2,6 +2,7 @@
 
 You can access our paper here: [https://www.mdpi.com/1424-8220/25/3/801/htm](https://www.mdpi.com/1424-8220/25/3/801/htm)
 
+
 ## Citation
 Please use this BibTeX entry for citing our work:
 
@@ -25,6 +26,7 @@ Download this git repository and run locally on Linux (or WSL if using Windows) 
 git clone https://github.com/AhmedAShaheen/fully_gated_DAE.git
 ```
 
+
 ## Generating Datasets
 To generate the main dataset used in training and testing, use the following command:  
 ```bash
@@ -35,6 +37,7 @@ To generate the "non-overlapping" dataset used in ECG plotting, use the followin
 ```bash
 python generate_data.py --Data "RMN2"
 ```
+
 
 ## Training and testing
 To train the deep learning models used in the experiment, use the `main_experiment.py` file and set the correct parameters. For example to run the same experiment in the paper, use the following python code in cmd.
@@ -51,6 +54,7 @@ python main_experiment.py --Data "RMN1" --Mode Test>> ./results/results.txt
 ```bash
 python main_experiment.py --Data "RMN2" --Mode Test>> ./results/results.txt
 ```
+
 
 ## Generating results and plots
 The results, tables, and plots are not generated automatically in the testing process.
