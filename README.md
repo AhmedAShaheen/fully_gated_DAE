@@ -5,7 +5,7 @@ You can access our paper here: [https://www.mdpi.com/1424-8220/25/3/801/htm](htt
 ## Citation
 Please use this BibTeX entry for citing our work:
 
-'''
+```bibtex
 @Article{s25030801,
 AUTHOR = {Shaheen, Ahmed and Ye, Liang and Karunaratne, Chrishni and Seppänen, Tapio},
 TITLE = {Fully-Gated Denoising Auto-Encoder for Artifact Reduction in ECG Signals},
