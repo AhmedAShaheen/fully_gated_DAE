@@ -3,7 +3,6 @@
 You can access our paper here: [Link Text](https://www.mdpi.com/1424-8220/25/3/801/htm)
 
 ## Citation
----
 Please use this BibTeX entry for citing our work:
 '''@Article{s25030801,
 AUTHOR = {Shaheen, Ahmed and Ye, Liang and Karunaratne, Chrishni and Seppänen, Tapio},
@@ -16,5 +15,5 @@ ARTICLE-NUMBER = {801},
 URL = {https://www.mdpi.com/1424-8220/25/3/801},
 ISSN = {1424-8220},
 DOI = {10.3390/s25030801}
-}
+}'''
 
