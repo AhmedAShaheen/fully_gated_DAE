@@ -21,32 +21,34 @@ DOI = {10.3390/s25030801}
 ```
 
 Download this git repository and run locally on Linux (or WSL if using Windows) for GPU support
-```git clone https://github.com/AhmedAShaheen/fully_gated_DAE.git```
+```bash
+git clone https://github.com/AhmedAShaheen/fully_gated_DAE.git
+```
 
 ## Generating Datasets
 To generate the main dataset used in training and testing, use the following command:  
-```python
+```bash
 python generate_data.py --Data "RMN1"
 ```
 
 To generate the "non-overlapping" dataset used in ECG plotting, use the following command:
-```python
+```bash
 python generate_data.py --Data "RMN2"
 ```
 
 ## Training and testing
 To train the deep learning models used in the experiment, use the `main_experiment.py` file and set the correct parameters. For example to run the same experiment in the paper, use the following python code in cmd.
-```python
+```bash
 python main_experiment.py --Data "RMN1" --Mode Train>> ./results/results.txt
 ```
 
 The testing is included in the previous command. However, to re-run the testing you can use `main_experiment.py` as follows: 
 - For overlapping data (The main dataset in the experiment):
-```python
+```bash
 python main_experiment.py --Data "RMN1" --Mode Test>> ./results/results.txt
 ```
 - For non-overlapping data (The dataset used for ECG plotting):
-```python
+```bash
 python main_experiment.py --Data "RMN2" --Mode Test>> ./results/results.txt
 ```
 
@@ -54,12 +56,12 @@ python main_experiment.py --Data "RMN2" --Mode Test>> ./results/results.txt
 The results, tables, and plots are not generated automatically in the testing process.
 
 To generate result tables and boxplots use command: 
-```python
+```bash
 python3 main_experiment.py --Data "RMN1" --Mode Eval>> ./results/results.txt
 ```
 
 To generate ECG plots, use the following command:
-```python
+```bash
 python3 main_experiment.py --Data "RMN2" --Mode Eval>> ./results/results.txt
 ```
 
