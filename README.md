@@ -17,7 +17,8 @@ ARTICLE-NUMBER = {801},
 URL = {https://www.mdpi.com/1424-8220/25/3/801},
 ISSN = {1424-8220},
 DOI = {10.3390/s25030801}
-}```
+}
+```
 
 ## Training and testing
 To train the deep learning models used in the experiment, use the 'main_experiment.py' file and set the correct parameters. For example to run the same experiment in the paper, use the following python code in cmd.
