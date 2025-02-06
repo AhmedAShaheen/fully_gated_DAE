@@ -37,6 +37,8 @@ python main_experiment.py --Data "RMN2" --Mode Test>> ./results/results.txt
 ```
 
 ## Generating results and plots
+The results, tables, and plots are not generated automatically in the testing process.
+
 To generate result tables and boxplots use command: 
 ```python
 python3 main_experiment.py --Data "RMN1" --Mode Eval>> ./results/results.txt
