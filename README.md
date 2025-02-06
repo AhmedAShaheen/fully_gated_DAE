@@ -46,7 +46,7 @@ However, if you need to re-train the deep learning models used in the experiment
 python main_experiment.py --Data "RMN1" --Mode Train>> ./results/results.txt
 ```
 
-The testing is included in the previous command. However, to re-run the testing you can use `main_experiment.py` as follows: 
+If you run the previous command, the testing is already included. However, if you need to re-run the testing (e.g., to re-generate the results) you can use `main_experiment.py` as follows: 
 - For overlapping data (The main dataset in the experiment):
 ```bash
 python main_experiment.py --Data "RMN1" --Mode Test>> ./results/results.txt
