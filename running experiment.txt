@@ -1,0 +1,20 @@
+### working on Window sub-system for Linux:
+wsl
+
+### change directory to code dir: ###
+cd ~/ecg_unimodal
+
+### Training: ###
+python3 ./KerasCodes/main_experiment.py --Data "RMN1" --Mode Train>> ./results/4_RMN/results.txt
+or 
+python3 ./KerasCodes/main_experiment.py --Data "RMN2" --Mode Train>> ./results/5_RMN_nonoverlapping/results.txt
+
+### Testing: ###
+python3 ./KerasCodes/main_experiment.py --Data "RMN1" --Mode Test>> ./results/4_RMN/results.txt
+or
+python3 ./KerasCodes/main_experiment.py --Data "RMN2" --Mode Test>> ./results/5_RMN_nonoverlapping/results.txt
+
+### Evaluation: ###
+python3 ./KerasCodes/main_experiment.py --Data "RMN1" --Mode Eval>> ./results/4_RMN/results.txt
+or 
+python3 ./KerasCodes/main_experiment.py --Data "RMN2" --Mode Eval>> ./results/5_RMN_nonoverlapping/results.txt
