@@ -46,4 +46,4 @@ To generate ECG plots, use the following command:
 python3 main_experiment.py --Data "RMN2" --Mode Eval>> ./results/results.txt
 ```
 
-You can remove the '>> ./results/results.txt' if you don't want the output of the codes to be written directly to 'results.txt' file.
+You can remove the '>> ./results/results.txt' if you don't want the output of the codes to be written directly to 'results.txt' file. However, it is useful to keep it.
