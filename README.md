@@ -40,6 +40,7 @@ python generate_data.py --Data "RMN2"
 
 
 ## Training and testing
+The models' weights obtained from our runs are already available in folder `Models`. 
 To train the deep learning models used in the experiment, use the `main_experiment.py` file and set the correct parameters. For example to run the same experiment in the paper, use the following python code in cmd.
 ```bash
 python main_experiment.py --Data "RMN1" --Mode Train>> ./results/results.txt
