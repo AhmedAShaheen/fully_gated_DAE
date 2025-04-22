@@ -1,6 +1,6 @@
 # Fully-Gated Denoising Auto-Encoder for Artifact Reduction in ECG Signals
 
-You can access our paper here: [https://www.mdpi.com/1424-8220/25/3/801/htm](https://www.mdpi.com/1424-8220/25/3/801/htm)
+You can access our paper here: ([https://www.mdpi.com/1424-8220/25/3/801/htm](https://doi.org/10.3390/s25030801))
 
 
 ## Citation
