@@ -1,0 +1,11 @@
+matplotlib==3.10.7
+numpy==2.3.5
+pandas==2.3.3
+prettytable==3.17.0
+scikit_learn==1.7.2
+scipy==1.16.3
+seaborn==0.13.2
+tensorflow==2.17.0
+tensorflow_probability==0.24.0
+wfdb==4.3.0
+pywt==1.7.0
