@@ -28,9 +28,13 @@ git clone https://github.com/AhmedAShaheen/fully_gated_DAE.git
 
 ## Requirements
 The code was originally run on a WSL (Ubuntu 22.04.5 -GNU/Linux 6.6.87.2-microsoft-standard-WSL2 x86_64)
+
 The Python version is: 3.10.12
+
 GPU: NVIDIA GeForce RTX 3080 (NVIDIA-SMI 560.35.03, Driver Version: 560.81, CUDA Version: 12.6)
+
 cuDNN version (compiled): 8
+
 Other dependencies are in the ```requirements.txt``` file.
 
 ## Generating Datasets
